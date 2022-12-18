@@ -1,0 +1,178 @@
+<head>
+    <style>
+
+        @keyframes popIn{
+            0%{
+                transform: scale(0%);
+                opacity: 0%;
+            }
+            100%{
+                transform: scale(100%);
+                opacity: 100%;
+            }
+        }
+
+        
+        
+        body{
+            background-color: red;
+            background: linear-gradient(to bottom right, rgb(235, 165, 255),rgb(182, 225, 255));
+            
+
+            animation: 1s cubic-bezier(0,0,0,1) 0s 1 popIn;
+          
+
+        }
+        .text{
+            
+            text-align: center;
+            font-family: Arial, Helvetica, sans-serif;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translateX(-50%) translateY(-50%);
+            text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.271);
+            line-height: 0.25;
+            
+            
+        }
+        
+        .maintext{
+            
+            font-size: 75px;
+        }
+        
+        .subtext{
+            
+            margin-top: 20px;
+            font-size: 15px;
+            text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.291);
+        }
+        
+        .aboutme{
+            border-radius: 5px;
+            transition-duration: 0.3s;
+            padding: 10px 30px;
+            color: black;
+            background-color: rgba(255, 255, 255, 0.225);
+            text-decoration: none;
+            border: none;
+            cursor: pointer;
+        }
+        .aboutme:hover{
+            
+            background-color: rgba(183, 232, 246, 0.668);
+        }
+        
+        .socials{
+            margin: 25px;
+            width: 7%;
+            height: 7%;
+            filter:drop-shadow(0px 0px 3px rgb(0, 172, 238, 0.45));
+            transition-duration: 0.2s;
+            
+        }
+        
+        .socials1{
+            
+            margin: 25px;
+            width: 7%;
+            height: 7%;
+            filter:drop-shadow(0px 0px 5px rgb(88, 101, 242, 0.45));
+            transition-duration: 0.3s;
+            
+        }
+
+        .git{
+            
+            margin: 25px;
+            width: 7%;
+            height: 7%;
+            filter:drop-shadow(0px 0px 5px rgba(255, 255, 255, 0.45));
+            transition-duration: 0.3s;
+            
+        }
+        .socials2{
+            
+            margin: 25px;
+            width: 7%;
+            height: 7%;
+            filter:drop-shadow(0px 0px 5px rgb(255, 0, 0, 0.45));
+            transition-duration: 0.3s;
+            
+        }
+
+        .socials3{
+            
+            margin: 25px;
+            width: 7%;
+            height: 7%;
+            filter:drop-shadow(0px 0px 5px rgb(255, 255, 255, 0.45));
+            transition-duration: 0.3s;
+            
+        }
+
+
+
+
+        /*selecteed*/
+        .socials:hover{
+            transform: scale(150%);
+            margin: 25px;
+            filter:drop-shadow(0px 0px 3px rgb(0, 172, 238, 1));
+            
+        }
+        
+        .socials1:hover{
+            
+            margin: 25px;
+            transform: scale(150%);
+            filter:drop-shadow(0px 0px 5px rgb(88, 101, 242, 0.75));
+            
+        }
+
+        .git:hover{
+            margin: 25px;
+            transform: scale(150%);
+            filter:drop-shadow(0px 0px 5px rgba(255, 255, 255, 1));
+            
+        }
+        .socials2:hover{
+            
+            margin: 25px;
+            transform: scale(150%);
+            filter:drop-shadow(0px 0px 5px rgb(255, 0, 0, 1));
+            
+        }
+
+        .socials3:hover{
+            
+            margin: 25px;
+            transform: scale(150%);
+            filter:drop-shadow(0px 0px 5px rgb(255, 255, 255, 1));
+            
+        }
+    </style>
+</head>
+<body>
+    
+    <div class="text">
+        <h1 class="maintext">hey im skye!</h1>
+        <p class="subtext"><b>(she/her)</b></p>
+    
+        <a href="https://twitter.com/skyeheh"><img class="socials" src="images/twitter.png"></a>
+        <a href="https://discord.gg/jyTQqJrGpT"><img class="socials1" src="images/discord.png"></a>
+        <a href="https://github.com/mudkippyy"><img class="git" src="images/github-mark-white.png"></a>
+        <a href="https://www.youtube.com/channel/UCP3ZFJfV3Jssg0junbGDUyw"><img class="socials2" src="images/youtube.png"></a>
+        <a href="https://osu.ppy.sh/users/mudk_ip"><img class="socials3" src="images/osu.png"></a>
+        
+        
+        
+        
+    </div>
+    
+    
+        
+
+    
+</body>
